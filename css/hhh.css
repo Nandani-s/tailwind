@@ -1,0 +1,17 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	background-color: white;
+	height: 80vh;
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	grid-gap: 20px;
+}
+.items{
+	height: 100px;
+	width: 300px;
+	background-color: gray;
+	overflow-y: scroll;
+}

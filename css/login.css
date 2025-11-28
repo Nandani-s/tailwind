@@ -1,0 +1,41 @@
+/* body{
+	background-color: rgb(175, 175, 233);
+} */
+.doll{
+
+	color: brown;
+	align-items: center;
+	text-align: center;
+}
+.hero{
+	display: flex;
+	justify-content: center;
+	
+	background-color: white;
+	
+}
+.login1{
+	background-color: blanchedalmond;
+	height: 175px;
+	padding: 20px;
+	align-content: center;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	font-family: 'Times New Roman', Times, serif;
+}
+.login2{
+	background-color: rgb(228, 237, 237);
+	height: 175px;
+	padding: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.button{
+	display: flex;
+	justify-content: center;
+	
+}
+.button button{
+    padding: 5px;
+}

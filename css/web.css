@@ -1,0 +1,289 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.logo i {
+	color: navy;
+	border-radius: 100%;
+	border: 4px solid yellow;
+	background-color: yellow;
+}
+
+nav {
+	left: 0;
+	right: 0;
+	position: fixed;
+	display: flex;
+	height: 70px;
+	background-color: navy;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.menu {
+	display: flex;
+	/* margin: 50px; */
+}
+
+.menu li {
+	list-style: none;
+	margin: 15px;
+	padding-bottom: 15px;
+	cursor: pointer;
+
+}
+
+.menu li:hover {
+	color: yellow;
+	border-bottom: 2px solid yellow;
+}
+
+.menu button {
+	display: flex;
+	padding: 5px 10px;
+	height: 30px;
+	margin: 10px;
+	background-color: yellow;
+	color: navy;
+	border: 1px solid yellow;
+
+}
+
+.menu button:hover {
+	background-color: navy;
+	border: 2px solid yellow;
+	color: white;
+}
+
+
+.Hero {
+	height: calc(100vh - 50px);
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(./../WhatsApp\ Image\ 2025-11-19\ at\ 2.32.04\ PM.jpeg);
+}
+
+.hero-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 96%;
+}
+
+
+h1 {
+	color: white;
+	font-size: 50px;
+}
+
+.hero-text p {
+	color: white;
+	text-align: center;
+	width: 70%;
+	font-size: 25px;
+}
+
+.hero-text button {
+
+	background-color: navy;
+	color: white;
+	border: 2px solid navy;
+	width: 150px;
+	padding: 5px 5px;
+
+}
+
+.hero-text button:hover {
+	background-color: rgb(1, 1, 55);
+	border: 1px solid rgb(1, 1, 55);
+}
+
+.down {
+	display: flex;
+	justify-content: center;
+
+}
+
+.down .s1 {
+	height: 14px;
+	width: 14px;
+	border-radius: 100%;
+	border: 2px solid white;
+	margin: 4px;
+}
+
+.down .s2 {
+	height: 14px;
+	width: 14px;
+	background-color: white;
+	border-radius: 100%;
+	border: 2px solid white;
+	margin: 4px;
+}
+
+.first {
+	height: 500px;
+
+	background-color: rgb(234, 241, 241);
+}
+
+.welcome {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.welcome h2 {
+	color: navy;
+	align-items: center;
+	font-size: 25px;
+
+	text-align: center;
+}
+
+.welcome p {
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	margin: 50px;
+
+
+}
+
+.section2 {
+	display: flex;
+	margin: 50px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.graduate {
+	height: 250px;
+	width: 375px;
+	text-align: center;
+}
+
+.user {
+	height: 250px;
+	width: 375px;
+	text-align: center;
+}
+
+.book {
+	height: 250px;
+	width: 375px;
+	text-align: center;
+}
+
+.section2 i {
+	border-radius: 100%;
+	font-size: 30px;
+	padding: 10px;
+
+	background-color: rgb(255, 255, 255);
+}
+
+.section2 i:hover{
+	background-color: yellow;
+}
+.footer{
+	padding:20px 100px;
+	height: 275px;
+	background-color: navy;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+}
+.ekira{
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+}
+.ekira p{
+    text-align: left;
+}
+.logo2 i {
+	color: navy;
+	border-radius: 100%;
+	border: 4px solid yellow;
+	background-color: yellow;
+}
+.icon i{
+	border:1px solid gray;
+	padding: 4px;
+	color: grey;
+
+}
+.icon i:hover{
+	background-color: yellow;
+	color: navy;
+}
+.featuress{
+	display: flex;
+	width: 225px;
+	justify-content: space-between;
+}
+.feature i{
+	color: yellow;
+	
+}
+.feature li{
+	list-style: none;
+
+}
+.information li{
+	list-style: none;
+}
+.information i{
+	color: yellow;
+}
+.newsletter{
+	width: 275px;
+}
+.newsletter input{
+	padding: 10px 20px;
+	border: 1px solid gray;
+	border-radius: 4px;
+	background-color: navy;
+}
+.newsletter button{
+	padding: 10px 25px;
+	background-color: yellow;
+	color: navy;
+	border: 1px solid yellow;
+	border-radius: 4px;
+}
+.newsletter button:hover{
+	background-color: rgb(153, 153, 9);
+	border: 1px solid  rgb(153, 153, 9);
+
+}
+.newsletter input:hover{
+	border: 1px solid yellow;
+}
+.footer2{
+	/* text-align: center; */
+    display: inline;
+	margin: 20px;
+}
+.footer2 p{
+	color: gray;
+}
+.image{
+	display: flex;
+	background-color: black;
+	color: white;
+	justify-content: space-around;
+}
+.image2{
+	align-content: center;
+
+}

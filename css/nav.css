@@ -1,0 +1,47 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+.main{
+	display: flex;
+	height: 50px;
+	background-color: rgb(3, 3, 53);
+	color: aliceblue;
+	justify-content: space-between;
+	
+}
+.hello{
+	align-content: center;
+	padding: 5px;
+	font-size: 25px;
+	height: 50px;
+	
+
+}
+.container{
+    height: 80px;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+.container ul{
+	display: flex;
+    list-style: none;
+	gap: 50px;
+	
+}
+
+.icon{
+	height: 50px;
+	display: flex;
+	justify-content: end;
+	align-items: center; 
+	/* margin-left: 15px; */
+	gap: 20px;
+}
+.icon i{
+	/* margin-right: 15px; */
+
+	margin-left: 15px;
+}

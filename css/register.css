@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+  background: linear-gradient(to right , rgb(139, 139, 228), rgb(222, 150, 162) );
+  height: 100vh;
+  padding: 50px;
+}
+/* .hero{
+	color: brown;
+	align-items: center;
+	text-align: center;
+} */
+
+.head{
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	
+
+	color: aliceblue;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background: linear-gradient(to right, rgb(73, 107, 159),rgb(206, 127, 206));
+     
+}
+.hi{
+
+	align-items: center ;
+	justify-content: center;
+	
+}
+/* .register1 {
+	background-color: aqua;
+	background-image: url(./../632144c198c52107b86629b56c265071.jpg);
+	padding: 40px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	height: 250px;
+    border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+
+
+} */
+.register2{
+	background-color: rgb(237, 217, 236);
+	padding: 40px;
+	height: 250px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.button {
+	display: flex;
+	justify-content: center;
+
+}
+.button button{
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+	border-radius: 10px;
+	background-color: rgb(127, 195, 255);
+    color: aliceblue;
+	width: 190px;
+	border-radius:20px ;
+}
+.button button:hover{
+	background-color: beige;
+	color: black;
+	padding: 5px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.form input{
+padding: 0px 10px;
+	height: 25px;
+	border-radius: 20px;
+}
